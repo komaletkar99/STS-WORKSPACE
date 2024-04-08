@@ -1,0 +1,17 @@
+package com.element.dao;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.element.entity.Employee;
+
+public interface EmployeeDao extends JpaRepository<Employee, Serializable> {
+	
+	@Query("from Employee where name =:name")
+	public Employee findByEmpNaame(String name);
+	
+	@Query("select * from employee where city =:city")
+	public Employee findByEmpCity(String city);
+}

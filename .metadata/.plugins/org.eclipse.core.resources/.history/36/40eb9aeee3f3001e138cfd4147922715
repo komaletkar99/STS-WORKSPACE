@@ -1,0 +1,25 @@
+package com.element.dao;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.data.jpa.repository.Query;
+
+import com.element.entity.Employee;
+
+public interface EmployeeDao extends JpaRepository<Employee, Serializable> {
+	
+	@Query("from Employee where name =:name")
+	public Employee findByEmpNaame(String name);
+	
+	@Query(value = "select * from employee where city =:city", nativeQuery = true)
+	public Employee findByEmpCity(String city);
+	
+	@Query("update employee set city = dhule where id =:id")
+	public Employee updateData(String id);
+	
+//	@Query("INSERT INTO Employee (id, name, salary, city) " +
+//	           "VALUES (:id, :name, :salary, :city)")
+//	   public Employee insertIntoEmployee(int id, String name, double salary, String city);
+	}
+

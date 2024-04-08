@@ -1,0 +1,12 @@
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="com.train.booking.Train"><rhs name\="com.train.booking.Train"/></lhs><lhs name\="java.util.Collection"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.lang.Iterable"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.List"><rhs name\="java.util.LinkedList"/><rhs name\="java.util.ArrayList"/></lhs><lhs name\="java.util.Deque"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.Queue"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.lang.Cloneable"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractSequentialList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.AbstractCollection"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="java.util.LinkedList"><rhs name\="java.util.LinkedList"/></lhs><lhs name\="com.element.beans.Employee"><rhs name\="com.element.beans.Employee"/></lhs><lhs name\="com.element.beans.Student"><rhs name\="com.element.beans.Student"/></lhs><lhs name\="com.jdc.Calsulator1.Calsi"><rhs name\="com.jdc.Calsulator1.Calsi"/></lhs><lhs name\="org.springframework.data.domain.AbstractPageRequest"><rhs name\="org.springframework.data.domain.PageRequest"/></lhs><lhs name\="org.springframework.data.domain.Pageable"><rhs name\="org.springframework.data.domain.PageRequest"/></lhs><lhs name\="org.springframework.data.domain.PageRequest"><rhs name\="org.springframework.data.domain.PageRequest"/></lhs><lhs name\="com.element.entity.Student"><rhs name\="com.element.entity.Student"/></lhs><lhs name\="com.element.entity.StudentFamily"><rhs name\="com.element.entity.StudentFamily"/></lhs><lhs name\="com.element.entity.Account"><rhs name\="com.element.entity.Account"/></lhs><lhs name\="com.element.entity.Employee"><rhs name\="com.element.entity.Employee"/></lhs></history>
+content_assist_number_of_computers=14
+content_assist_proposals_background=255,255,255
+content_assist_proposals_foreground=0,0,0
+eclipse.preferences.version=1
+org.eclipse.jdt.internal.ui.navigator.layout=2
+org.eclipse.jdt.internal.ui.navigator.librariesnode=true
+org.eclipse.jdt.ui.formatterprofiles.version=23
+spelling_locale_initialized=true
+typefilter_migrated_2=true
+useAnnotationsPrefPage=true
+useQuickDiffPrefPage=true

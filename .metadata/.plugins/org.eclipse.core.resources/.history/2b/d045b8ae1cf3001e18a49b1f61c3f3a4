@@ -1,0 +1,10 @@
+package com.element.service;
+
+import com.element.entity.Student;
+
+public class StudentService {
+
+	public void saveData() {
+		Student s = new Student("komal", "pune", 54);
+	}
+}

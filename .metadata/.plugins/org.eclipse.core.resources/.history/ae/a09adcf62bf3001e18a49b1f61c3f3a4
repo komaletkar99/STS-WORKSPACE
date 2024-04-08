@@ -1,0 +1,11 @@
+package com.element.dao;
+
+import java.io.Serializable;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.element.entity.Account;
+
+public interface AccountDao extends JpaRepository<Account, Serializable> {
+
+}

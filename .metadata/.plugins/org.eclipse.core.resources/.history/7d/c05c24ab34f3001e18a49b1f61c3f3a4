@@ -1,0 +1,19 @@
+package com.element.service;
+
+import java.io.Serializable;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.element.dao.EmployeeDao;
+import com.element.entity.Employee;
+@Service
+public class EmployeeService implements Serializable {
+
+	@Autowired
+	private EmployeeDao edao;
+	public void AddEmployee() {
+		Employee e = new Employee(101, "Komal", 4567.90, "Pune");
+		edao.save(e);
+	}
+}

@@ -1,0 +1,5 @@
+package com.jdc._HibernetHQL;
+
+public class Employee {
+
+}

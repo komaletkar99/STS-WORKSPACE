@@ -1,0 +1,17 @@
+package com.element.dao;
+
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import com.element.entity.Student;
+
+public interface StudentDao extends CrudRepository<Student, Integer>{
+
+	public Student findByName(String name);
+	
+	public List<Student> findByCity(String city);
+	
+	public List<Student> findByAgeGreaterThan(int age);
+
+}

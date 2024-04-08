@@ -1,0 +1,13 @@
+package com.element.service;
+
+import com.element.dao.AccountDao;
+import com.element.entity.Account;
+
+public class AccountService {
+
+	private AccountDao adao;
+	public void addAccountData() {
+		Account ob = new Account(12345, 123456, 67890.90, "MAHAS0098", "Waluj", 12378, "Ritesh");
+		adao.save(ob);
+	}
+}

@@ -1,0 +1,20 @@
+package com.element.service;
+
+import com.element.dao.StudentDao;
+import com.element.dao.StudentFamilyDao;
+import com.element.entity.Student;
+import com.element.entity.StudentFamily;
+
+public class StudentService {
+
+	private StudentDao sdao;
+	private StudentFamilyDao ssdao;
+	
+	public void saveData() {
+		Student s = new Student(101, "komal", "pune", 54);
+		sdao.save(s);
+		
+		StudentFamily sf = new StudentFamily(101, "Kalyani", "Adhav", 65);
+		ssdao.save(sf);
+	}
+}
